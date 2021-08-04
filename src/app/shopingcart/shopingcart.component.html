@@ -1,0 +1,54 @@
+<div *ngIf="load_json" >
+    <div class="row" *ngFor="let product of productsList">
+        <div class="col-md-6 image" >     
+        <img src="{{product.Image_URL}}" class="Image_URL"/>
+        <div class="offer_price">
+            <strong>{{product.Offer_Text}} OFF</strong>
+        </div>
+        </div>
+        <div class="col-md-6 product_details">
+          
+            <div class="details">
+             <h3><b>{{product.Brand_name}}</b></h3>
+             <h4>{{product.Product_name}}</h4>
+             <h5>{{product.Quantity}}</h5>
+             <h5><strong>Rs </strong>{{product.Price}}</h5>
+             <h5><b>MRP </b>{{product.MRF}}</h5>
+            </div><br/>
+            <div class="buttons">
+            <div class="addtocart">
+                <button class="addtocartbtn" (click)="AddToCart(product)" title="{{messages}}">AddToCart</button>
+            </div>
+            <div class="inc_dec_btn">
+                <button class="decrease" (click)="removeProduct(product)" [attr.disabled]="product.cart<1 ? '' : null">-</button>
+              <input placeholder="selectitem" class="showval" value="{{product.cart}}"/>
+              <button class="increase" (click)="addProduct(product)">+</button>
+            </div>
+              
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="checkOut">
+        <div class="checkout_list">  
+          <h1>Qty {{sum}}</h1>
+        <h1>Total {{price}}</h1>
+        </div>
+        <div class="checkout_btn">
+            <button class="checkoutbtn" (click)="showPopup()">CHECKOUT</button>
+        </div>
+    </div>
+</div>
+
+    <div class="overlay" *ngIf="popup">
+        <div class="popup">
+            <div class="popupHeader">
+            <button (click)="closePopup()">X</button>
+        </div>
+        <div class="popupBody">
+            <h1>Qty: <strong>{{sum}}</strong></h1>
+            <h1>Total: <strong>{{price}}</strong></h1>
+        </div>
+        </div>
+    </div>

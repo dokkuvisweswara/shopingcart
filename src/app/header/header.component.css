@@ -1,0 +1,16 @@
+.head_nav{
+    height: 100%;
+    width: 100%;transition: opacity 0.17s cubic-bezier(0, 1.02, 0.02, 1.01);
+    background: linear-gradient( 
+90deg
+ , rgba(57,198,43,1) 0%, rgba(72,214,129,1) 0%, rgba(30,115,240,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 32px;
+    background: -webkit-linear-gradient(#eee, #333);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }

@@ -1,0 +1,63 @@
+[
+        {
+            "Brand_name": "Amul Milk",
+            "Product_name": "Milk",
+            "Quantity": 1,
+            "Price": 70,
+            "MRF": 70,
+            "Image_URL": "https://www.amul.com/files/products/amul_gold.jpg",
+            "Offer_Text": "20% ",
+            "Message":"Thank 'you'r order added to cort"
+        },
+        {
+            "Brand_name": "Amul Ghee",
+            "Product_name": "ghee",
+            "Quantity": 1,
+            "Price": 70,
+            "MRF": 70,
+            "Image_URL": "https://www.bigbasket.com/media/uploads/p/l/40046230_4-amul-cow-ghee.jpg",
+            "Offer_Text": "20% ",
+            "Message":"Thank 'you'r order added to cort"
+            
+        },
+        {
+            "Brand_name": "Amul Icecreams",
+            "Product_name": "icecreams",
+            "Quantity": 1,
+            "Price": 80,
+            "MRF": 80,
+            "Image_URL": "https://www.milkmaid.in/sites/default/files/2020-06/strawberry-ice-cream-590x436.jpg",
+            "Offer_Text": "20% ",
+            "Message":"Thank 'you'r order added to cort"
+        },
+        {
+            "Brand_name": "Amul Butter",
+            "Product_name": "butter",
+            "Quantity": 1,
+            "Price": 90,
+            "MRF": 90,
+            "Image_URL": "https://www.milkmaid.in/sites/default/files/2020-06/strawberry-ice-cream-590x436.jpg",
+            "Offer_Text": "20%",
+            "Message":"Thank 'you'r order added to cort"
+        },
+        {
+            "Brand_name": "Amul Cheese",
+            "Product_name": "cheese",
+            "Quantity": 1,
+            "Price": 10,
+            "MRF": 10,
+            "Image_URL": "https://5.imimg.com/data5/XW/TI/MY-9101930/fresh-amul-cheese-block-500x500.jpg",
+            "Offer_Text": "20% ",
+            "Message":"Thank 'you'r order added to cort"
+        },
+        {
+            "Brand_name": "Amul Chocolate",
+            "Product_name": "chocolate",
+            "Quantity": 1,
+            "Price": 100,
+            "MRF": 100,
+            "Image_URL": "https://www.rajasthangift.com/wp-content/uploads/2020/12/amul-dark-chocolates-rajasthangift.jpg",
+            "Offer_Text": "20% ",
+            "Message":"Thank 'you'r order added to cort"
+        }
+    ] 
